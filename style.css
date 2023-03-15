@@ -70,7 +70,7 @@ h2 {
 }
 
 button {
-	color: #e5e7eb;
+	color: #fff;
 	font-weight: 700;
 	background-color: #3882f6;
 	width: 90px;
@@ -178,4 +178,15 @@ button {
 }
 .section3-text > p:last-child {
 	color: #ddd;
+}
+
+/* ------footer-------- */
+
+footer {
+	background-color: #1f2937;
+	height: 90px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
