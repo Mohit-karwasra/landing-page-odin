@@ -14,11 +14,21 @@ header {
 	height: 50px;
 }
 
-.logo-links {
+.logo-links,
+.header-content,
+.section-1,
+.section-2,
+.section-3,
+.section3-content-container,
+.section1-content-container,
+footer {
 	display: flex;
 	justify-content: center;
-	gap: 55%;
 	align-items: center;
+}
+
+.logo-links {
+	gap: 55%;
 }
 
 ul {
@@ -38,9 +48,6 @@ a {
 }
 
 .header-content {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	margin: 20px 20px 20px 20px;
 	padding: 40px;
 	gap: 40px;
@@ -83,10 +90,7 @@ button {
 /* -----Section 1------ */
 
 .section-1 {
-	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 	gap: 17px;
 	margin: 20px;
 }
@@ -97,9 +101,6 @@ button {
 	color: #1f2937;
 }
 .section1-content-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	gap: 30px;
 }
 
@@ -123,10 +124,7 @@ button {
 
 .section-2 {
 	background-color: #e5e7eb;
-	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	height: 200px;
 }
 
@@ -150,16 +148,7 @@ button {
 /* ------------Section 3-------- */
 /* Button is edited above in header section and is reused */
 
-.section-3 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .section3-content-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	background-color: #3882f6;
 	color: white;
 	margin: 30px;
@@ -186,7 +175,4 @@ footer {
 	background-color: #1f2937;
 	height: 90px;
 	color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
