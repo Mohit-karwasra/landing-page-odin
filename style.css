@@ -80,7 +80,7 @@ h2 {
 	margin-top: 7px;
 }
 
-/* -----Section 2------ */
+/* -----Section 1------ */
 
 .section-1 {
 	display: flex;
@@ -88,14 +88,13 @@ h2 {
 	align-items: center;
 	justify-content: center;
 	gap: 17px;
+	margin: 20px;
 }
 
 .section-1 > p {
 	font-size: 36px;
 	font-weight: bolder;
 	color: #1f2937;
-	padding: 20px;
-	flex: 1;
 }
 .section1-container-content {
 	display: flex;
@@ -118,4 +117,32 @@ h2 {
 
 .section1-image-text-container > p {
 	flex-wrap: wrap;
+}
+
+/* ------Section 2-------- */
+
+.section-2 {
+	background-color: #e5e7eb;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+
+.section2-container-content {
+	padding: 15px;
+}
+
+.quote {
+	font-size: 36px;
+	font-weight: light;
+	font-style: italic;
+	color: #1f2937;
+}
+
+.author {
+	font-weight: 600;
+	text-align: end;
+	margin: 6px;
 }
